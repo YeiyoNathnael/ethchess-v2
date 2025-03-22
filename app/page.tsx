@@ -14,7 +14,7 @@ export default function Home() {
   );
 
   }
-  import { useAuth } from '@/lichess/hooks';
+  import { useAuth } from '@/elichess/hooks';
 
   export  function MyComponent() {
     const { isAuthenticated, session, loading, error } = useAuth();

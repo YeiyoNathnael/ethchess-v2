@@ -1,5 +1,5 @@
 "use client"
-import { useAuth } from '@/lichess/hooks';
+import { useAuth } from '@/elichess/hooks';
 import { useState } from 'react';
 
 export default function LogoutButton() {

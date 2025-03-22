@@ -1,6 +1,6 @@
 "use client"
-import { useUser, useUserGames } from '@/lichess/hooks/useUser';
-import { useAuth } from '@/lichess/hooks';
+import { useUser, useUserGames } from '@/elichess/hooks/useUser';
+import { useAuth } from '@/elichess/hooks';
 import { useState } from 'react';
 import { redirect, useRouter } from 'next/navigation';
 

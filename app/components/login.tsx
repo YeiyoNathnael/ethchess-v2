@@ -1,5 +1,5 @@
 "use client"
-import { useAuth } from '@/lichess/hooks';
+import { useAuth } from '@/elichess/hooks';
 
 export default function LoginButton() {
   const { login } = useAuth();

@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers';
 import { NextResponse } from 'next/server';
-import { getConfig } from '@/lichess/config';
+import { getConfig } from '@/elichess/config';
 
 export async function GET() {
   const config = getConfig();

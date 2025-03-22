@@ -1,5 +1,5 @@
 "use client"
-import { useAuth } from '@/lichess/hooks';
+import { useAuth } from '@/elichess/hooks';
 import LoginButton from './login';
 import LogoutButton from './logout';
 

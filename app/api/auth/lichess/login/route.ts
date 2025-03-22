@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getConfig } from '@/lichess/config';
+import { getConfig } from '@/elichess/config';
 import { cookies } from 'next/headers';
 import { randomBytes, createHash } from 'crypto';
 
