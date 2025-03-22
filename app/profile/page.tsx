@@ -2,7 +2,7 @@
 import { useUser, useUserGames } from '@/elichess/hooks/useUser';
 import { useAuth } from '@/elichess/hooks';
 import { useState } from 'react';
-import { redirect, useRouter } from 'next/navigation';
+import { redirect } from 'next/navigation';
 
 export default function ProfilePage() {
   const { isAuthenticated, loading: authLoading } = useAuth();

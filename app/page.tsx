@@ -8,27 +8,9 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-8">EthChess</h1>
       <div className="p-6 border rounded-lg shadow-lg">
         <AuthStatus />
-        <MyComponent />
       </div>
     </main>
   );
 
   }
-  import { useAuth } from '@/elichess/hooks';
-
-  export  function MyComponent() {
-    const { isAuthenticated, session, loading, error } = useAuth();
-    
-    if (loading) return (<div>Checking authentication...</div>);
-    if (error) return (<div>Error: {error.message}</div>);
-    
-    return (
-      <div>
-        {isAuthenticated ? (
-          <p>Welcome, {session?.user?.username}!</p>
-        ) : (
-          <p>Please log in</p>
-        )}
-      </div>
-    );
-  }
+ 
